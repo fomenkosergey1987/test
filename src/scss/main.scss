@@ -1,0 +1,123 @@
+@import "custom";
+@import "~bootstrap/scss/bootstrap";
+
+
+body{
+  background-color: #303030;
+}
+.navbar-wrapper{
+  background-color: #303030;
+}
+.navbar{
+  margin: 0 auto;
+  .logo{
+    width: 127px;
+    float: left;
+    .svg-logo{
+      width: 127px;
+      height: 67px;
+      display: block;
+      float: left;
+      text-indent: -99999px;
+      font-size: 0;
+      background: url('../images/content/logo.svg') 50% no-repeat;
+      background-size: cover;
+    }
+  }
+}
+.main-menu{
+  li{
+    float: left;
+    margin-left: 50px;
+    a {
+      text-transform: uppercase;
+      text-decoration: none;
+      color: #fff;
+      &:hover{
+        color: #e8631c;
+        font-weight: bold;
+      }
+    }
+  }
+}
+.header-wrapper{
+  .header{
+    padding-bottom: 70px;
+    background-image: url(../images/content/big-man.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+    .register-form-wrapper{
+      width: 630px;
+      padding: 10px 10px 10px 80px;
+      margin-top: 263px;
+      float: left;
+    }
+    .title{
+      font-family: 'Oswald', sans-serif;
+      font-size: 142px;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    .text{
+      font-family: 'Montserrat', sans-serif;
+      float: left;
+      color: #fff;
+      margin-bottom: 30px;
+    }
+    .register-button{
+      font-family: 'Oswald', sans-serif;
+      text-decoration: none;
+      text-transform: uppercase;
+      color: #fff;
+      float: left;
+      padding: 10px 70px;
+      background-color: #e8631c;
+    }
+  }
+}
+.danceTour-wrapper{
+  padding: 0;
+}
+.danceTour{
+  background-color: #e8631c;
+  background-image: url(../images/content/tour-bg-img.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  padding: 100px 10px;
+  h1{
+    font-family: 'Oswald', 'sans-serif';
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+  }
+  .text{
+    max-width: 800px;
+    margin: 10px auto;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+  }
+  .card-wrapper{
+    justify-content: center;
+  }
+  .card{
+    margin-left: 40px;
+    padding: 0;
+    border: 0;
+    .card-body{
+      background-color: #303030;
+      color: #fff;
+      text-align: center;
+      .card-title{
+        font-family: 'Oswald', 'sans-serif';
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .card-text{
+        font-family: 'Montserrat', sans-serif;
+        color: #fff;
+      }
+    }
+  }
+}
